@@ -1,0 +1,58 @@
+.header { 
+    height: 60px;
+    display: grid;
+    grid-template-columns: 300px auto 200px;
+    align-items: center;
+    padding: 5px 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+}
+
+.header_logo img{
+    height: 35px;
+}
+
+.header_logo span {
+    font-size: 24px;
+    color: gray;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    width: 700px;
+    background-color: whitesmoke;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.header_search input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    flex: 1;
+    font-family: "gilroy";
+}
+
+.header_icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+} 
+
+.header_icons span{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    gap: 10px;
+} 
+
+.header_icons .material-icons {
+    color: rgb(36, 36, 36);
+}

@@ -1,0 +1,38 @@
+1. npx create-react-app google-drive-clone / cd google-drive-clone / code .
+
+2. delete package-lock.json
+3. npm start
+4. delete readme.md / {in src folder} > app.css / app.test.js / logo.svg / reportWebVitals.js / setupTests.js
+5. delete {in public folder} > logo both / manifest / robots.txt /
+6. in index.html line 13 to 26 / 19 to 28 delete it / change title / index.js > delete 5 import / 13 to 16.
+7. in app.js > delete 1/2 line / delete header html
+8. in app.js > type <h1>Google drive Clone</h1>
+9. in index.css type boiler plate 
+
+now start project 
+
+1. in src file > create file Header.js type rfce / in div > give class="header"
+2. go app.js > import <Header />
+
+
+installation material ui 
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+search material icons (icons name = svg)
+
+
+
+
+
+photoURL
+Remove the following dependency from your package.json: "react-scripts": "5.0.0", (your version may be higher)
+
+Add the following dependency to your package.json: "react-scripts": "4.0.3",
+
+Delete your node_modules folder
+
+Run npm install
+
+Share
+Improve this answer
+
